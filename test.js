@@ -1,13 +1,24 @@
+// function plus(x, y){
+//     console.log(arguments);
+//     return x+y;
+// }
 
-console.log(result); //undefined 타입의 참조를 하려 해서 에러가 남
-var result = {
-    name: "소연",
-    0:"",
-}; //객체인거 할당도 나중에 됨. 
-console.log(result);
-result[''] = 0;
-console.log(result);
+// console.log(plus(1));//NaN
 
-var r = result;
-r["0"] = "1";
-console.log(result, r);
+// const fun = plus;
+
+// console.log(fun.name);//plus
+
+// var func = function minus(x, y){
+//     return x-y;
+// }
+
+// // console.log(multiply.name);//ReferenceError
+
+// function Person(name){
+//     this.name = name;
+// }
+
+// const me = new Person("kim");
+
+// console.log(Person.prototype.__proto__)
